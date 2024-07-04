@@ -15,7 +15,7 @@ body{
 
 }
 
-img{
+.ImgQuiz{
 
     border: 5px solid black ;
     width: 100%;
@@ -37,7 +37,7 @@ img{
 
     background-color: #3B51AD;
     width: 350px;
-    height: 250px;
+    height: 350px;
     border: black solid 2px;
     display: flex;
     flex-direction: column;
@@ -63,12 +63,26 @@ img{
 
 .PerguntaTexto{
 
-    font-size: 25px;
+    font-size: 22px;
     display: flex;
     justify-content: center;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
     color: white;
 
 }
+
+
+.FallenImg{
+
+    display: flex;
+    margin: auto auto 5% 15%;
+    width: 250px;
+    height: 165px;
+
+}
+
 
 .EscolaRespostaTitulo{
 
